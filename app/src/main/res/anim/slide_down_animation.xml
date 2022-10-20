@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+    <scale
+        android:fromXScale="1.0"
+        android:toXScale="2.0"
+        android:fromYScale="1.0"
+        android:toYScale="2.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="2000"
+
+    />
+    <rotate
+        android:startOffset ="1000"
+        android:duration = "500"
+        android:toDegrees = "360"
+        android:fromDegrees = "0"
+        android:pivotX = "0"
+        android:pivotY = "100%"
+        android:repeatCount = "2" />
+    <translate
+        android:startOffset ="5000"
+        android:duration = "500"
+        android:fromXDelta = "0%"
+        android:toYDelta = "1000" />
+    <translate
+        android:startOffset = "5500"
+        android:duration = "500"
+        android:fromXDelta = "0"
+        android:toYDelta = "-1000" />
+    <translate
+        android:startOffset = "6000"
+        android:duration = "500"
+        android:fromXDelta="0%"
+        android:toXDelta="-100%"
+        />
+    <translate
+        android:startOffset = "6500"
+        android:duration = "500"
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        />
+    <scale
+        android:startOffset="7000"
+        android:fromXScale="1"
+        android:toXScale="0.5"
+        android:fromYScale="1"
+        android:toYScale="0.5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        />
+    <rotate
+        android:startOffset = "7000"
+        android:toDegrees = "360"
+        android:duration = "1000"
+        android:fromDegrees = "0"
+        android:pivotX = "50%"
+        android:pivotY = "50%"
+
+        />
+
+
+
+
+
+
+</set>
